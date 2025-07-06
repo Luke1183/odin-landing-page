@@ -25,6 +25,12 @@ footer {
 footer {
     margin-top: auto;
     color: #E5E7EB;
+    display: flex;
+    height: 100px;
+}
+
+#footer-legal-text {
+    margin: auto;
 }
 
 #quote-section {
@@ -37,8 +43,35 @@ h1 {
     color:#F9FAF8;
 }
 
-nav {
+nav,
+#title-section,
+.sign-up-section,
+.white-container {
     display: flex;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+#title-section {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    gap: 20px;
+}
+
+#title-image {
+    background-color: gray;
+    flex-shrink: 0;
+    color: white;
+    display: flex;
+}
+
+#title-image-text {
+    margin: auto;
+}
+
+.sign-up-section {
+    min-width: 800px;
 }
 
 .nav-link,
@@ -80,6 +113,3 @@ h2 {
     font-style: bold;
 }
 
-#title-image {
-    background-color: gray;
-}
