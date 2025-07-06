@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: sans-serif, "Times New Roman";
 }
 
 *,
@@ -10,6 +11,75 @@ html {
 
 body {
     display: flex;
-    margin: 0;
-    background-color: yellow;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: auto;
+    max-width: 1000px;
+}
+
+header,
+footer {
+    background-color: #1F2937;
+}
+
+footer {
+    margin-top: auto;
+    color: #E5E7EB;
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-link,
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+button,
+.sign-up-section {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#quote-author {
+    font-style: bold;
+}
+
+#title-image {
+    background-color: gray;
 }
