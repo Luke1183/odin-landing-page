@@ -53,6 +53,16 @@ nav,
     padding: 10px;
 }
 
+nav {
+    gap: 20px;
+}
+
+.nav-link,
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 #title-section {
     padding-top: 50px;
     padding-bottom: 60px;
@@ -107,12 +117,6 @@ li {
 
 .sign-up-section {
     min-width: 800px;
-}
-
-.nav-link,
-.hero-text {
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 .logo {
