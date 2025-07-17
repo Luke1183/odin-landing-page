@@ -70,8 +70,25 @@ nav,
     margin: auto;
 }
 
+.high-level-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.box-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
 ul {
     list-style-type: none;
+}
+
+li {
+    width: 160px;
 }
 
 .illustration {
@@ -82,6 +99,10 @@ ul {
     border-color: #3882F6;
     border-radius: 10px;
     padding: 5px;
+}
+
+.box-description {
+    text-align: center;
 }
 
 .sign-up-section {
