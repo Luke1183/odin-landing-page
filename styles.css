@@ -70,6 +70,20 @@ nav,
     margin: auto;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.illustration {
+    height: 160px;
+    width: 160px;
+    border-style: solid;
+    border-width: 4px; /* what is going on here? border-width and border-top-width get overridden */
+    border-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 .sign-up-section {
     min-width: 800px;
 }
