@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 header,
@@ -41,6 +41,7 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color:#F9FAF8;
+    margin-bottom: 5px;
 }
 
 nav,
@@ -63,15 +64,23 @@ nav {
     color: #E5E7EB;
 }
 
+.hero-text {
+    margin-top: 5px;
+}
+
 #title-section {
     padding-top: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     gap: 20px;
+}
+
+#title-text,
+#title-image {
+    flex: 1;
 }
 
 #title-image {
     background-color: gray;
-    flex-shrink: 0;
     color: white;
     display: flex;
 }
