@@ -140,6 +140,28 @@ button,
     color: #E5E7EB;
 }
 
+button {
+    border-radius: 6px;
+    border: none;
+    width: 120px;
+    height: 40px;
+}
+
+button.button-blue-background {
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: white;
+    border-style: solid;
+}
+
+button:hover {
+    background-color: #1d5abc;
+}
+
+button:active {
+    background-color: #0f3674;
+}
+
 h2 {
     font-size: 36px;
     color: #1F2937;
