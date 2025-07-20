@@ -44,7 +44,6 @@ h1 {
     margin-bottom: 5px;
 }
 
-nav,
 #title-section,
 .sign-up-section,
 .white-container {
@@ -55,7 +54,11 @@ nav,
 }
 
 nav {
+    display: flex;
+    margin: auto;
+    width: 820px;
     gap: 20px;
+    padding-top: 5px;
 }
 
 .nav-link,
@@ -139,6 +142,41 @@ li {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
+    cursor: pointer;
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo:hover {
+    background-color: #f4fb29;
+    color: black;
+}
+
+.logo:active {
+    background-color: #c6cd12;
+    color: black;
+}
+
+.nav-link {
+    display: flex;
+    cursor: pointer;
+    border-radius: 6px;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-link:hover {
+    background-color: #1d5abc;
+}
+
+.nav-link:active {
+    background-color: #0f3674;
 }
 
 button,
