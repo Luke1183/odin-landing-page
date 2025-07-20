@@ -160,6 +160,7 @@ button {
     border: none;
     width: 120px;
     height: 40px;
+    cursor: pointer;
 }
 
 button.button-blue-background {
