@@ -125,7 +125,14 @@ li {
 }
 
 .sign-up-section {
+    display: flex;
     min-width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
 }
 
 .logo {
@@ -138,6 +145,14 @@ button,
 .sign-up-section {
     background-color: #3882F6;
     color: #E5E7EB;
+}
+
+h3 {
+    margin: 0;
+}
+
+.sign-up-section p {
+    margin: 0;
 }
 
 button {
